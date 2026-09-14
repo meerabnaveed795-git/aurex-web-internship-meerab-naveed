@@ -2,52 +2,67 @@
 
 ## Intern Information
 
-**Name:** Meerab Naveed  
-**Domain:** Full-Stack Web Development  
-**Week:** Week 2
+**Name:** Meerab Naveed
 
-## Task Description
+**Domain:** Full-Stack Web Development
 
-Styled the Week 1 personal profile webpage using CSS3.
-Applied modern styling, Flexbox layout, UI/UX principles,
-and responsive design for desktop, tablet, and mobile screens.
+---
+
+# Week 2
+
+## Work Completed
+
+- CSS Flexbox
+- CSS Grid
+- Responsive Design
+- Portfolio Page Layout
+
+---
+
+# Week 3
+
+## Week 3 Focus
+
+Advanced CSS, CSS Grid, Flexbox, CSS Animations,
+Transitions, Responsive Design and UI Polish.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
+- CSS Grid
 - Flexbox
+- CSS Animations
+- CSS Transitions
 - Responsive Design
-- Git
-- GitHub
 
-## CSS Features & Layout Techniques
+## CSS Grid Implementation
 
-- CSS selectors
-- Colors and backgrounds
-- Typography and text styling
-- CSS Box Model
-- Flexbox
-- Spacing and alignment
-- Hover effects
-- Media queries
-- Responsive design for desktop, tablet, and mobile
+A responsive project showcase was created using
+CSS Grid with `auto-fit` and `minmax()`.
 
-## How to Run
+## Animations
 
-Open the `index.html` file in Google Chrome or Microsoft Edge.
+- Page load fade-in animation
+- Hero section animation
+- Card hover effects
+- Button scale effects
+- Smooth transitions
 
-## Key Learnings
+## Responsive Testing
 
-- Learned CSS3 fundamentals and styling techniques.
-- Learned how to use the CSS Box Model.
-- Learned how to create layouts using Flexbox.
-- Learned how to make webpages responsive using media queries.
-- Learned basic UI/UX principles such as spacing, typography, colors, and alignment.
+The website was tested on:
 
-## Difficulties / Blockers
+- Desktop
+- Tablet
+- Mobile
 
-I initially had difficulty understanding responsive layouts
-and adjusting the webpage for different screen sizes.
-I practiced using media queries and Flexbox to make the
-webpage responsive for desktop, tablet, and mobile devices.
+## Live Deployment
+
+Live Deployment Link:
+
+Add your Vercel or GitHub Pages link here.
+
+## GitHub Repository
+
+Add your GitHub repository link here.

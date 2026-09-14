@@ -1,141 +1,235 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meerab Naveed - Developer profile</title>
+
+    <title>Meerab Naveed - Developer Profile</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
 </head>
 
 <body>
-    <header>
-        <h1>Meerab Naveed</h1>
-        <p>Full-Stack web development Intern</p>
+
+    <!-- Header -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Meerab Naveed</h1>
+            <p>Full-Stack Web Development Intern</p>
+            <a href="#projects" class="hero-btn">View My Projects</a>
+        </div>
     </header>
-    <nav>
-        <p> <a href="#about">About Me</a></p>
-        <p> <a href="#skills">Skills</a></p>
-        <p> <a href="#education">Education</a></p>
-        <p><a href="#experience">Experience</a></p>
-        <p> <a href="#contact">Contact</a></p>
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
+
+
     <main>
-        <section id="about">
+
+        <!-- About -->
+        <section id="about" class="section-card">
             <h2>About Me</h2>
-            <p>I am a student interested in web development</p>
+
+            <p>
+                I am a student interested in web development
+                and software engineering.
+            </p>
         </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>Javascript</li>
-                <li>Git & Github</li>
-            </ul>
+
+
+        <!-- Skills -->
+        <section id="skills" class="section-card">
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Semantic and structured web pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Interactive web functionality.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and project management.</p>
+                </div>
+
+            </div>
         </section>
-        <section id="education">
+
+
+        <!-- Education -->
+        <section id="education" class="section-card">
             <h2>Education</h2>
-            <p>Bachelor of science in Information Technology</p>
+
+            <div class="info-box">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p>
+                    Studying Information Technology with an interest
+                    in web development and software engineering.
+                </p>
+            </div>
         </section>
-        <section id="experience">
+
+
+        <!-- Experience -->
+        <section id="experience" class="section-card">
             <h2>Experience</h2>
-            <p>Full-stack web development internship</p>
+
+            <div class="info-box">
+                <h3>Full-Stack Web Development Internship</h3>
+                <p>
+                    Currently developing frontend skills and working
+                    on responsive web applications.
+                </p>
+            </div>
         </section>
-        <section id="contact">
-            <h2>Contact ME</h2>
-            <form>
-                <div>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section-card projects-section">
+
+            <h2>My Projects</h2>
+
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <div class="project-icon">01</div>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A responsive personal portfolio website
+                        created using HTML5 and CSS.
+                    </p>
+
+                    <a href="#" class="project-btn">
+                        View Project
+                    </a>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-icon">02</div>
+
+                    <h3>Student Management System</h3>
+
+                    <p>
+                        A web-based system concept for managing
+                        student information and academic records.
+                    </p>
+
+                    <a href="#" class="project-btn">
+                        View Project
+                    </a>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-icon">03</div>
+
+                    <h3>Lost & Found App</h3>
+
+                    <p>
+                        A web application concept for reporting
+                        and finding lost items.
+                    </p>
+
+                    <a href="#" class="project-btn">
+                        View Project
+                    </a>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-icon">04</div>
+
+                    <h3>Web Development Project</h3>
+
+                    <p>
+                        A modern responsive interface developed
+                        using frontend technologies.
+                    </p>
+
+                    <a href="#" class="project-btn">
+                        View Project
+                    </a>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="section-card">
+
+            <h2>Contact Me</h2>
+
+            <form class="contact-form">
+
+                <div class="form-group">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                    >
                 </div>
-                <div>
+
+
+                <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                    >
                 </div>
-                <div>
+
+
+                <div class="form-group">
                     <label for="message">Message:</label>
-                    <textarea name="message" id="message"></textarea>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message"
+                    ></textarea>
                 </div>
-                <div>
-                    <button type="submit">Send</button>
-                </div>
+
+
+                <button type="submit" class="submit-btn">
+                    Send Message
+                </button>
+
             </form>
+
         </section>
+
     </main>
+
+
+    <!-- Footer -->
     <footer>
-        <p>2026 Meerab Naveed</p>
+        <p>© 2026 Meerab Naveed</p>
     </footer>
+
 </body>
-
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meerab Naveed - developer profile</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-        <h1>Meerab Naveed</h1>
-        <p>Full-Stack web development Intern</p>
-    </header>
-    <nav>
-        <p> <a href="#about">About Me</a></p>
-        <p> <a href="#skills">Skills</a></p>
-        <p> <a href="#education">Education</a></p>
-        <p><a href="#experience">Experience</a></p>
-        <p> <a href="#contact">Contact</a></p>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a student interested in web development</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>Javascript</li>
-                <li>Git & Github</li>
-            </ul>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <p>Bachelor of science in Information Technology</p>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <p>Full-stack web development internship</p>
-        </section>
-        <section id="contact">
-            <h2>Contact ME</h2>
-            <form>
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div>
-                    <label for="message">Message:</label>
-                    <textarea name="message" id="message"></textarea>
-                </div>
-                <div>
-                    <button type="submit">Send</button>
-                </div>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>2026 Meerab Naveed</p>
-    </footer>
-</body>
-
->>>>>>> 37cf501 (Complete Week 2 CSS styling and responsive design)
 </html>
