@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task Manager - Week 4</title>
+
+    <link rel="stylesheet" href="task.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Task Manager</h1>
+            <p>AUREX Internship - Week 4</p>
+        </header>
+
+
+        <!-- Add Task Form -->
+        <section class="task-form-section">
+
+            <form id="taskForm">
+
+                <div class="input-group">
+
+                    <input
+                        type="text"
+                        id="taskInput"
+                        placeholder="Enter your task..."
+                        autocomplete="off"
+                    >
+
+                    <button type="submit">
+                        Add Task
+                    </button>
+
+                </div>
+
+                <p id="errorMessage" class="error-message"></p>
+
+            </form>
+
+        </section>
+
+
+        <!-- Filter Buttons -->
+        <section class="filter-section">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="active">
+                Active
+            </button>
+
+            <button class="filter-btn" data-filter="completed">
+                Completed
+            </button>
+
+        </section>
+
+
+        <!-- Task List -->
+        <section class="tasks-section">
+
+            <div class="task-header">
+                <h2>My Tasks</h2>
+                <span id="taskCount">0 tasks</span>
+            </div>
+
+            <ul id="taskList"></ul>
+
+            <p id="emptyMessage" class="empty-message">
+                No tasks available.
+            </p>
+
+        </section>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
