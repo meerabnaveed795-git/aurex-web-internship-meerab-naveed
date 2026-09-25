@@ -160,11 +160,11 @@ After deployment, the live application link will be added below.
 
 ## Live Deployment
 
-🔗 **Live Link:** [YOUR-LIVE-LINK-HERE]
+🔗 **Live Link:** [Your site is live at https://meerabnaveed795-git.github.io/aurex-web-internship-meerab-naveed]
 
 ## GitHub Repository
 
-🔗 **Repository Link:** [YOUR-GITHUB-LINK-HERE]
+🔗 **Repository Link:** [https://github.com/meerabnaveed795-git/aurex-web-internship-meerab-naveed(repository)]
 
 ---
 
